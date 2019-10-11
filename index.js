@@ -25,5 +25,6 @@ function sayHiToGrandma(string) {
 }
 
 function shout(string) {
-  return string.toUpperCase("I love you too.".toUpperCase)
+  if (string === "I love you, Grandma.")
+    return "I love you, too."
 }
